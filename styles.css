@@ -8,6 +8,10 @@ body {
     background-color: #29272779
   }
 
+#listagem_vaga{
+    text-align: center;
+}
+
 .container{
     display: grid; 
     justify-items: center; 
@@ -27,4 +31,18 @@ input{
     align-items: center;
 }
 
-
+a{
+    margin-top: 5px;
+}
+a:link, a:visited {
+	text-decoration: none;
+    color: whitesmoke;
+	}
+a:hover {
+	text-decoration: underline;
+	color: #29272779 ;
+	}
+a:active {
+	text-decoration: none;
+    color: whitesmoke;
+	}
