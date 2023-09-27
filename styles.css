@@ -1,0 +1,30 @@
+
+h1{
+    margin-top: 5%;
+    text-align: center;
+}
+
+body {
+    background-color: #29272779
+  }
+
+.container{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+}
+
+input{
+    background-color: #29272779;
+}
+
+.lista{
+    margin-left: 20px;
+    width: 23%;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+
